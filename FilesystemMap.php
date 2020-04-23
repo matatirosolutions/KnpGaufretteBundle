@@ -2,13 +2,11 @@
 
 namespace Knp\Bundle\GaufretteBundle;
 
-use Gaufrette\FilesystemMapInterface;
-
 /**
  * Holds references to all declared filesystems
  * and allows to access them through their name.
  */
-class FilesystemMap implements \IteratorAggregate, FilesystemMapInterface
+class FilesystemMap implements \IteratorAggregate
 {
     /**
      * Map of filesystems indexed by their name.
